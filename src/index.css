@@ -1,24 +1,12 @@
 :root {
-    --color-primary: #6C98CF;
-    --color-danger: #FF0060;
-    --color-success: #1B9C85;
-    --color-white: #fff;
-    --color-fg: #363949;
-    --color-hilight: rgba(132, 139, 200, 0.18);
-    --color-bg: #F6F6F9;
-
-    --card-border-radius: 2rem;
-    --br-1: 0.4rem;
-    --br-2: 1.2rem;
+    --color-fg: #e1e2e7;
+    --color-bg: #16113a;
 
     --box-shadow: 0 2rem 3rem var(--color-hilight);
 
     --font-size: 14px;
 
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-
+    font-family: "Helvetica", "Arial", sans-serif;
     color-scheme: light dark;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -63,4 +51,8 @@ a {
 
 .primary {
     color: var(--color-primary);
+}
+
+#root {
+    height: 100vh;
 }

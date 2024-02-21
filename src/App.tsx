@@ -1,17 +1,17 @@
-import ScanDocument from "./views/scandocument/scandocument";
+//import ScanDocument from "./views/scandocument/scandocument";
+import Sidebar from "./components/sidebar/sidebar";
+import Header from "./components/header/header";
 import './App.css';
 
 function App() {
 
   return (
-    <>
-      <div className="toggle">
-        <div className="logo">
-          <h2>Archivist</h2>
-        </div>
+    <div className="appbody">
+      <Sidebar />
+      <div className="main">
+        <Header />
       </div>
-      <ScanDocument/>
-    </>
+    </div>
   );
 }
 

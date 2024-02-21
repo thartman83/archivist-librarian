@@ -1,0 +1,27 @@
+.appbody {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -webkit-align-content: stretch;
+    align-content: stretch;
+    height: 100%;
+    position: relative;
+}
+
+.sidebar {
+    width: 5%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.main {
+    flex: 1;
+    -webkit-flex: 1;
+}
+
+.header {
+    margin-top: 1rem;
+}
