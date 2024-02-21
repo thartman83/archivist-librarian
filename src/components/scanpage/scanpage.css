@@ -1,0 +1,14 @@
+.scanpage {
+    height: 1100px;
+    width: 850px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.scanpage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

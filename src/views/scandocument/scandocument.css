@@ -1,0 +1,66 @@
+.scanner-device {
+    margin-left: 1rem;
+}
+
+label.input-label {
+    font-size: 1.25rem;
+}
+
+select {
+    font-size: 1rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+option.select-placeholder {
+    color: #666;
+}
+option {
+    color: #000;
+}
+
+.scanner-options {
+    margin-top: 1rem;
+    max-width: 25%;
+}
+
+.scanner-options .form-group {
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 1.15rem;
+}
+
+.form-hint {
+    display: none;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.form-fixed-group {
+    display: inline;
+    height: 2rem;
+}
+
+.form-fixed-group .form-fixed-slider {
+    height: 100%;
+}
+
+.form-fixed-group .input-fixed-number {
+    float: right;
+    max-width: 5rem;
+    height: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
