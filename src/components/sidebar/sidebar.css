@@ -17,3 +17,7 @@
     border: none;
     cursor: pointer;
 }
+
+.sidebar-btn:hover {
+    color: white;
+}

@@ -1,14 +1,17 @@
 import "./scanpage.css";
 import { useEffect, useState } from "react";
 
-const ScanPage = ({pageData}) => {
+const ScanPage = ({pageData, scanning}) => {
+  //const raw = "data:image/jpg;base64," + atob(pageData);
 
-  const loading = useState<bool>(false);
-  const raw = "data:image/jpg;base64," + atob(pageData);
+/*      <img src={raw} /> */
 
   return (
-    <div className="scanpage">
-      <img src={raw} />
+    <div className={"scanpage" + (scanning ? " loader" : "")}>
+      {
+        pageData && <img src={"data:image/jpg;base64," + atob(pageData)}/>
+//        loading && <span className="loader"/>
+      }
     </div>
   );
 };

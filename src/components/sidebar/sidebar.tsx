@@ -5,11 +5,11 @@ const Sidebar = () => {
   return (
       <div className="sidebar">
         <ul>
-          <li><button className="sidebar-btn"><i className="fas fa-home"/></button></li>
-          <li><button className="sidebar-btn"><i className="fas fa-search"/></button></li>
-          <li><button className="sidebar-btn"><i className="fas fa-file"/></button></li>
-          <li><button className="sidebar-btn"><i className="fas fa-chart-column"/></button></li>
-          <li><button className="sidebar-btn"><i className="fas fa-gear"/></button></li>
+          <li><a className="sidebar-btn"><i className="fas fa-home"/></a></li>
+          <li><a className="sidebar-btn"><i className="fas fa-search"/></a></li>
+          <li><a href="add" className="sidebar-btn"><i className="fas fa-file"/></a></li>
+          <li><a className="sidebar-btn"><i className="fas fa-chart-column"/></a></li>
+          <li><a className="sidebar-btn"><i className="fas fa-gear"/></a></li>
         </ul>
       </div>
   );
