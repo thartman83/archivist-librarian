@@ -1,7 +1,7 @@
 const services = [
   {
     serviceName: 'scour',
-    url: 'http://localhost:8080',
+    serviceUrl: 'http://localhost:8080',
     docsUrl: 'http://localhost:8080/docs',
     statusEndpoint: '/service',
     description: "Scanning microservice",
@@ -9,7 +9,7 @@ const services = [
   },
   {
     serviceName: 'stacks',
-    url: 'http://localhost:8321',
+    serviceUrl: 'http://localhost:8321',
     description: 'Document storage microservice'
   }
 

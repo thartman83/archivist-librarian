@@ -10,9 +10,9 @@ type ServiceInfo = {
 const ServiceCard = ({serviceName, serviceUrl,
                       docsUrl, description}: ServiceInfo) => {
   return (
-    <div className="service-card">
+    <div className="card service-card">
       <h3>{serviceName}
-        <a href="configure">
+        <a className="card-button" href={"settings/" + serviceName}>
           <i className="service-configure fas fa-gear"/>
         </a>
       </h3>

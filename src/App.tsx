@@ -6,6 +6,7 @@ import './App.css';
 import ScanDocument from "./views/scandocument/scandocument";
 import ScanResults from "./components/scanresults/ScanResults";
 import SettingsView from "./views/settings/settings";
+import Scour from "./views/scour/scour";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="scanresults/:jobid"
                  element={<ScanResults />}/>
           <Route path="settings" element={<SettingsView/>}/>
+          <Route path="settings/scour" element={<Scour/>}/>
         </Routes>
       </div>
       </div>
