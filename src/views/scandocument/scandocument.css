@@ -11,15 +11,6 @@ label.input-label {
     font-size: 1.25rem;
 }
 
-select {
-    display: block;
-    font-size: 1rem;
-    height: 2.5rem;
-    border-radius: 5px;
-    border: 1px solid black;
-    background-color: white;
-}
-
 option.select-placeholder {
     color: #666;
 }
@@ -71,22 +62,4 @@ option {
     border-radius: 5px;
     border: 1px solid black;
     padding-left: 5px;
-}
-
-.button-bar {
-    margin-top: 2rem;
-}
-
-.btn {
-    min-width: 100px;
-    min-height: 2rem;
-    border-radius: 3px;
-    display: inline-block;
-    background-color: var(--color-fg);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: white;
 }

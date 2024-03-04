@@ -1,3 +1,7 @@
+.sidebar {
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 12px;
+}
+
 .sidebar ul {
     list-style-type: none;
 }
@@ -16,8 +20,14 @@
     color: var(--color-fg);
     border: none;
     cursor: pointer;
+    padding-bottom: .25rem;
 }
 
-.sidebar-btn:hover {
-    color: white;
+.sidebar-btn:hover, .sidebar-btn:focus {
+    color: var(--color-fg-alt);
+    border-bottom: 1px solid var(--color-fg-alt);
+}
+
+.sidebar-btn.active {
+    border-bottom: 1px solid var(--color-fg);
 }

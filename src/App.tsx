@@ -5,25 +5,27 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import ScanDocument from "./views/scandocument/scandocument";
 import ScanResults from "./components/scanresults/ScanResults";
+import SettingsView from "./views/settings/settings";
 
 function App() {
 
   return (
-    <div className="appbody">
+    <BrowserRouter>
+      <div className="appbody">
       <Sidebar />
       <div className="main">
         <Header />
-        <BrowserRouter>
-          <Routes path="/" elament={<Home/>}>
-            <Route index element={<Home/>}/>
-            <Route path="add" element={<ScanDocument/>}/>
-            <Route path="scanresults/:jobid"
-                   element={<ScanResults />}/>
-          </Routes>
-        </BrowserRouter>
+        <Routes path="/" elament={<Home/>}>
+          <Route index element={<Home/>}/>
+          <Route path="add" element={<ScanDocument/>}/>
+          <Route path="scanresults/:jobid"
+                 element={<ScanResults />}/>
+          <Route path="settings" element={<SettingsView/>}/>
+        </Routes>
       </div>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
-export default App
+export default App;
