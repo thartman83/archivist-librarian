@@ -1,0 +1,65 @@
+.scan-document {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.scanner-device {
+    margin-left: 2rem;
+}
+
+label.input-label {
+    font-size: 1.25rem;
+}
+
+option.select-placeholder {
+    color: #666;
+}
+
+option {
+    color: #000;
+}
+
+.scanner-options {
+    margin-top: 1rem;
+}
+
+.scanner-options .form-group {
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+}
+
+.form-group {
+    margin-top: 1rem;
+    display: block;
+}
+
+.form-group label {
+    display: inline-block;
+    font-size: 1.15rem;
+    text-transform: capitalize;
+}
+
+.form-hint {
+    display: none;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.form-fixed-group {
+    height: 2rem;
+    width: 100%;
+}
+
+.form-fixed-group .form-fixed-slider {
+    height: 100%;
+}
+
+.form-fixed-group .input-fixed-number {
+    float: right;
+    max-width: 5rem;
+    height: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+}

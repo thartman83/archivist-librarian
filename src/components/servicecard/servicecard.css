@@ -1,0 +1,28 @@
+.service-card {
+    margin: 1rem;
+    padding: 1rem;
+    min-width: 250px;
+    min-height: 100px;
+    background-color: var(--color-bg-alt);;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.service-card:hover, .service-card:focus {
+    outline: solid 1px var(--color-fg);
+    /*    box-shadow: var(--color-fg) 0px 3px 8px;*/
+}
+
+.service-card h3 {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.service-configure {
+    float: right;
+}
+
+a:hover .service-configure, a:focus .service-configure {
+    color: var(--color-fg-alt);
+}
